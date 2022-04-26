@@ -1,14 +1,13 @@
-import React from 'react';
-import { View, Text } from 'react-native';
+import React, { useEffect } from 'react';
+import { View } from 'react-native';
+import Map from '../components/Map';
 
 const HomeScreen = () => {
 
     return(
         <>
-            <View>
-                <Text 
-                    style={{ color: 'black', fontSize: 25}}
-                >Home Screen</Text>
+            <View style={{ flex: 1}}>
+                <Map />
             </View>
         </>
     )
